@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+
+nav {}
+	
+
+header {
+	width: 100%;
+}
+
+nav ul {
+	background: red;
+	overflow: hidden;
+	padding: 0;
+	margin: 0 auto;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+nav ul li {
+	display: inline-flex;
+	padding: 4%;
+}
+
+
+nav ul li:hover {
+	background-color: blue;
+}
+
+
+section {
+	line-height: 1.5em;
+	font-size: 1em;
+	background: yellow;
+	width: 100%;
+}
+
+article {
+	padding: 5%;
+	align-content: center;
+}
+
+main {
+
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	background: blue;
+}
