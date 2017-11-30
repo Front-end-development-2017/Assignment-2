@@ -4,9 +4,59 @@ body{
 	font-family: helvetica;
 }	
 
-header {
-	/*width: 100%; */
+a {
+	text-decoration: none;
 }
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	border: 1px solid red;
+}
+
+nav {
+	display: none;
+	border: 1px solid red;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	padding: 0;
+}
+
+nav li {
+	
+}
+
+#nav-menu {
+	width: 100%;
+}
+
+
+#menu {
+	margin-right: 10px;
+	height: 20px;
+	width: 5%;
+
+}
+
+.show-menu {
+	position: absolute;
+	top: 100px;
+	display: block;
+}
+
+#logo {
+	width: 40%;
+}
+
+
+
+/*
 
 nav {
 	margin: 0 auto;
@@ -55,6 +105,7 @@ nav ul li:hover {
 }
 
 
+
 section {
 	padding-left: 15px;
 	padding-right: 15px;
@@ -84,3 +135,5 @@ footer {
 	width: 100%;
 	height: 200px;
 }
+
+*/
