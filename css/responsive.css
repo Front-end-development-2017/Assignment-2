@@ -1,93 +1,68 @@
+/*Tablet View*/
 @media screen and (min-width: 500px)
 {
-	body {
-		margin: 0;
-		padding: 0;
-		font-size: 1.4em;
+	/*Navigation*/
+	nav ul {
+		width: 50%;
+		float: right;
+		margin-bottom: 1%; 
 	}
 
-	nav {
-
+	nav ul li {
+		width: 20%;
+		margin-left: 4.5%;		
 	}
 
-	nav li {
-		font-size: 1.2em;
+	nav ul li:nth-child(4) {
+		margin-left: 2%;
+			
+	}
+	
+	nav ul li:hover {
+		border-bottom: 6px solid black;
+		border-radius: 5px;
 	}
 
-	main {
+	#logo {
+		width: 25%;
 	}
-
-	#menu {
-		display: hidden;
-	}
-
-	#text-alignment {
-		display: flex;
-		justify-content: space-around;
-		clear: both;
-	}
-
-	section {
-		
-	}
-
-
-	article {
-	width: 100%;
-	}
-
-	aside {
-	display: flex;
-	justify-content: space-between;
-	}
-
-	footer {
-	height: 400px;
-	background: blue;
-	}	
-
 }
-
+/*Desktop View*/
 @media screen and (min-width: 1000px)
 {
-	body {
-		background: red;
-		font-size: 1.5em;
-	}
-
-	header{
+	/*Navigation*/
+	nav ul {
+		clear: both;
 		display: flex;
-		height: 150px;
-		align-items: center;
+		justify-content: flex-end;
+		margin-right: 0.5%;
+	}
+	
+	nav ul li {
+		width: 10%;		
 	}
 
-	#nav-menu{
-		display: block;
+	nav ul li:nth-child(4) {
+		margin-left: 4%;			
+	}
+	
+	nav ul li:hover {
+		border-bottom: 6px solid black;
+		border-radius: 5px;
+		text-align: center;
 	}
 
-	#menu{
-		display: none;
+	#logo{
+		width: 15%;
 	}
-
-	nav{
-		width: 50%;
-		margin-left: 50%;
-		height: auto;
+	/*Content Body*/
+	.flex-sections {
+		display: flex;
+		justify-content: space-between;
 	}
-
-	nav ul{
-		margin-top: 0;
-	}
-
-	nav ul li{
-		display: inline-block;
-	}
-
-
-	footer {
-		position: absolute;
-		bottom: 0 auto;
-		background: blue;
-		height: 400px
+	/*Slide animation*/
+	.slide-show-container img {
+		height: 200px;
+		width: auto;
 	}
 }
