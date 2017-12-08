@@ -24,7 +24,28 @@
 	}
 
 	#logo {
-		width: 25%;
+		width: 20%;
+		margin-top: 25px;
+	}
+
+	/*image slide show animation*/
+	.slide-show {
+		display: none;
+	}
+
+	.slide-show-container {
+		position: relative;
+		margin-top: 50px;  		
+	}
+
+	.fade {
+		 animation-name: fade;
+		 animation-duration: 2s;
+	}
+
+	@keyframes fade {
+	   from {opacity: .4} 
+	   to {opacity: 1}
 	}
 }
 /*Desktop View*/
@@ -35,7 +56,7 @@
 		clear: both;
 		display: flex;
 		justify-content: flex-end;
-		margin-right: 0.5%;
+		margin-right: 3.5%;
 	}
 	
 	nav ul li {
@@ -53,16 +74,19 @@
 	}
 
 	#logo{
-		width: 15%;
+		width: 12.5%;
+		margin-top: 45px;	
 	}
+	
 	/*Content Body*/
 	.flex-sections {
 		display: flex;
 		justify-content: space-between;
 	}
+	
 	/*Slide animation*/
 	.slide-show-container img {
-		height: 200px;
-		width: auto;
+		height: 800px;
+		width: 100%;
 	}
 }
