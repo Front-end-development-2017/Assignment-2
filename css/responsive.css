@@ -1,17 +1,19 @@
+/*Tablet View*/
 @media screen and (min-width: 500px)
 {
+	/*Navigation*/
 	nav ul {
 		width: 50%;
 		float: right;
 		margin-bottom: 1%; 
 	}
 
-	nav ul li{
+	nav ul li {
 		width: 20%;
 		margin-left: 4.5%;		
 	}
 
-	nav ul li:nth-child(4){
+	nav ul li:nth-child(4) {
 		margin-left: 2%;
 			
 	}
@@ -21,13 +23,14 @@
 		border-radius: 5px;
 	}
 
-	#logo{
+	#logo {
 		width: 25%;
 	}
 }
-
+/*Desktop View*/
 @media screen and (min-width: 1000px)
 {
+	/*Navigation*/
 	nav ul {
 		clear: both;
 		display: flex;
@@ -35,11 +38,11 @@
 		margin-right: 0.5%;
 	}
 	
-	nav ul li{
+	nav ul li {
 		width: 10%;		
 	}
 
-	nav ul li:nth-child(4){
+	nav ul li:nth-child(4) {
 		margin-left: 4%;			
 	}
 	
@@ -52,11 +55,14 @@
 	#logo{
 		width: 15%;
 	}
-
+	/*Content Body*/
 	.flex-sections {
 		display: flex;
 		justify-content: space-between;
 	}
-
-	
+	/*Slide animation*/
+	.slide-show-container img {
+		height: 200px;
+		width: auto;
+	}
 }
