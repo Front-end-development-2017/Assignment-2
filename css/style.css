@@ -127,27 +127,24 @@ footer {
 }
 
 .footer-item {
-	height: 100px;
+	height: 80px;
 	border: 1px solid red;
 }
 
-.footer-three {
-	display: inline-block;
-}
-
-.footer-three ul  {
-	display: inline-block;
-	width: 10%;
+.footer-three ul {	
+	display: inline-flex;
+	justify-content: center;
+	margin-top: 45px;
 	padding: 0;
+	border: 1px solid red;
 }
 
-.footer-three ul li {
-	display: inline-block;	
+.footer-item ul li{
+	margin-right: 4%;
+	width: 12%;
 }
 
-.footer-three img{
-	width: 90%;
+.footer-three img {
 	height: 30px;
+	width: 100%;
 }
-
-
