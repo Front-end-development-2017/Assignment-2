@@ -128,11 +128,15 @@ footer {
 	display: block;
 }
 
+.footer-one {
+	border: 1px solid red;	
+}
+
 .footer-two nav ul {
 	display: inline-flex;
 	justify-content: center;
 	width: 100%;
-	margin-top: 15px;
+	margin-top: 22px;
 	margin-left: 1%;
 }
 
@@ -145,14 +149,13 @@ footer {
 }
 
 .footer-item {
-	height: 80px;
-	border: 1px solid red;
+	height: 100px;
 }
 
 .footer-three ul {	
 	display: inline-flex;
 	justify-content: center;
-	margin-top: 10px;
+	margin-top: 0;
 	margin-bottom: 0;
 	padding: 0;
 }
@@ -172,4 +175,8 @@ footer {
 .footer-three img {
 	height: 30px;
 	width: 100%;
+}
+
+.footer-three p {
+	margin-top: 20px;
 }
