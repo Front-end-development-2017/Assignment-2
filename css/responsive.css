@@ -28,6 +28,14 @@
 		margin-top: 25px;
 	}
 
+	#arrow {
+		margin-right: -4%;
+	}
+
+	#arrow:hover {
+		margin-right: -6%;
+	}
+
 	/*image slide show animation*/
 	.slide-show {
 		display: none;
@@ -35,7 +43,7 @@
 
 	.slide-show-container {
 		position: relative;
-		margin-top: 50px;  		
+		margin-top: 30px;  		
 	}
 
 	.fade {
@@ -53,21 +61,21 @@
 		justify-content: center;
 	}
 
-	.footer-two nav ul {
+	.footer-one nav ul {
 		width: 50%;
 		margin-right: 4%;
 	}
 
-	.footer-two nav ul li {
+	.footer-one nav ul li {
 		text-align: center;	
 	}
 
-	.footer-three ul {	
+	.footer-two ul {	
 		display: flex;
 		justify-content: center;
 	}
 
-	.footer-three ul li {
+	.footer-two ul li {
 		margin: 0;
 	}
 }
@@ -100,11 +108,24 @@
 		width: 12.5%;
 		margin-top: 45px;	
 	}
-	
+
 	/*Content Body*/
-	.flex-sections {
-		display: flex;
-		justify-content: space-between;
+.flex-sections {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-sections article p {
+	padding-right: 20px;
+}
+
+.flex-sections article h3 {
+	width: 95%;
+}
+
+
+	.slide-show-container {
+		margin-top: 50px;  		
 	}
 	
 	/*Slide animation*/

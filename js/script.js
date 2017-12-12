@@ -9,12 +9,13 @@
   function toggleMenu(){
     if (toggle) { // true: it's visible
       navMenu.classList.remove("show-menu"), // hide it
-      toggle = false
+      toggle = false;
     }
     else { // false: it's hidden
       navMenu.classList.add("show-menu"), // show it
-      toggle = true
+      toggle = true;
     }
   }
 
-})();
+}());
+

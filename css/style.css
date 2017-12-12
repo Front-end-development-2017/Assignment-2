@@ -16,6 +16,7 @@ a {
 
 p { 
 	line-height: 1.7em;
+	text-align: justify;
 }
 
 ul {
@@ -59,13 +60,44 @@ nav ul li {
 	font-size: 15px;
 }
 
-
 #menu {
 	margin-right: 10px;
 	height: 20px;
 	width: 5%;
 }
 
+#arrow {
+	position: fixed;
+    bottom: 15px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+	height: 20px;
+	width: 10%;
+}
+
+#arrow:hover {
+	width: 15%;
+	height: 30px;
+	margin-right: -2.5%;
+	margin-left: 0;
+}
+
+/*
+.show-arrow {
+	position: fixed;
+    bottom: 15px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+	height: 20px;
+	width: 10%;
+}
+*/
 .show-menu {
 	width: 100%;
 	margin-top: 50px;
@@ -128,38 +160,6 @@ footer {
 	display: block;
 }
 
-.footer-one {
-	border: 1px solid red;	
-}
-
-.footer-two nav ul {
-	display: inline-flex;
-	justify-content: center;
-	width: 100%;
-	margin-top: 22px;
-	margin-left: 1%;
-}
-
-.footer-two nav ul li {
-	width: 100%;	
-}
-
-.footer-two nav ul li:nth-child(4) {
-	margin-right: 0;
-}
-
-.footer-item {
-	height: 100px;
-}
-
-.footer-three ul {	
-	display: inline-flex;
-	justify-content: center;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding: 0;
-}
-
 .footer-item ul li{
 	margin-right: 4%;
 	width: 12%;
@@ -169,14 +169,46 @@ footer {
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
-	margin: 0;
+	margin-top: 0;
 }
 
-.footer-three img {
+.footer-item {
+	height: 120px;
+}
+
+.footer-one nav ul {
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 12px;
+	margin-left: 1%;
+}
+
+.footer-one nav ul li {
+	width: 100%;	
+}
+
+.footer-one nav ul li:nth-child(4) {
+	margin-right: 0;
+}
+
+.footer-one p {
+	margin-top: 10px;
+}
+
+.footer-two ul {	
+	display: inline-flex;
+	justify-content: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.footer-two img {
 	height: 30px;
 	width: 100%;
 }
 
-.footer-three p {
-	margin-top: 20px;
+.footer-two p {
+	margin-top: 30px;
 }
