@@ -47,6 +47,29 @@
 	   from {opacity: .4} 
 	   to {opacity: 1}
 	}
+
+	#nav-footer {
+		display: flex;
+		justify-content: center;
+	}
+
+	.footer-two nav ul {
+		width: 50%;
+		margin-right: 4%;
+	}
+
+	.footer-two nav ul li {
+		text-align: center;	
+	}
+
+	.footer-three ul {	
+		display: flex;
+		justify-content: center;
+	}
+
+	.footer-three ul li {
+		margin: 0;
+	}
 }
 /*Desktop View*/
 @media screen and (min-width: 1000px)

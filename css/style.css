@@ -8,8 +8,6 @@ body {
 	padding: 0;
 }
 
-
-
 a {
 	text-decoration: none;
 	color: black;
@@ -126,6 +124,26 @@ footer {
 	width: 100%;
 }
 
+#nav-footer {
+	display: block;
+}
+
+.footer-two nav ul {
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 1%;
+}
+
+.footer-two nav ul li {
+	width: 100%;	
+}
+
+.footer-two nav ul li:nth-child(4) {
+	margin-right: 0;
+}
+
 .footer-item {
 	height: 80px;
 	border: 1px solid red;
@@ -134,14 +152,21 @@ footer {
 .footer-three ul {	
 	display: inline-flex;
 	justify-content: center;
-	margin-top: 45px;
+	margin-top: 10px;
+	margin-bottom: 0;
 	padding: 0;
-	border: 1px solid red;
 }
 
 .footer-item ul li{
 	margin-right: 4%;
 	width: 12%;
+}
+
+.footer-item p {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
 }
 
 .footer-three img {
