@@ -64,7 +64,7 @@ nav ul li:nth-child(2) {
 }
 
 nav ul li:nth-child(4) {
-	margin-left: 21px;
+	margin-left: 15px;
 }
 
 
@@ -182,7 +182,7 @@ footer {
 	justify-content: center;
 	width: 100%;
 	margin-top: 12px;
-	margin-left: 1%;
+	margin-left: 1.5%;
 }
 
 .footer-one nav ul li {
@@ -192,6 +192,11 @@ footer {
 .footer-one nav ul li:nth-child(4) {
 	margin-right: 0;
 }
+
+.footer-one nav ul li:nth-child(3) {
+	margin-right: 0;
+}
+
 
 .footer-one p {
 	margin-top: 10px;
@@ -208,6 +213,7 @@ footer {
 .footer-two img {
 	height: 30px;
 	width: 100%;
+	margin: 0;
 }
 
 .footer-two p {
