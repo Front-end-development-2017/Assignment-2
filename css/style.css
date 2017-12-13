@@ -90,13 +90,6 @@ nav ul li:nth-child(4) {
 	width: 10%;
 }
 
-.arrow:hover {
-	width: 15%;
-	height: 30px;
-	margin-right: -2.5%;
-	margin-left: 0;
-}
-
 .show-menu {
 	width: 100%;
 	margin-top: 42.5px;
@@ -190,6 +183,10 @@ footer {
 	text-align: center;
 }
 
+.footer-one nav ul li:hover {
+	border: 0;
+}
+
 .footer-one nav ul li:nth-child(4) {
 	margin-right: 0;
 }
@@ -197,7 +194,6 @@ footer {
 .footer-one nav ul li:nth-child(3) {
 	margin-right: 0;
 }
-
 
 .footer-one p {
 	margin-top: 10px;

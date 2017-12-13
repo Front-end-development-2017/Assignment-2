@@ -26,14 +26,20 @@
 		margin-top: 20px;
 	}
 
+	#menu:hover {
+		height: 30px;
+	}
+
 	#arrow {
 		margin-right: -4%;
 	}
 
-	#arrow:hover {
-		margin-right: -6%;
+	.arrow:hover {
+		width: 15%;
+		height: 30px;
+		margin-right: -2.5%;
+		margin-left: 0;
 	}
-
 	/*image slide show animation*/
 	.slide-show {
 		display: none;
