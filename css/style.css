@@ -69,7 +69,7 @@ nav ul li {
 	width: 5%;
 }
 
-#arrow {
+.arrow {
 	position: fixed;
     bottom: 15px;
     right: 10px;
@@ -81,29 +81,16 @@ nav ul li {
 	width: 10%;
 }
 
-#arrow:hover {
+.arrow:hover {
 	width: 15%;
 	height: 30px;
 	margin-right: -2.5%;
 	margin-left: 0;
 }
 
-/*
-.show-arrow {
-	position: fixed;
-    bottom: 15px;
-    right: 10px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    cursor: pointer;
-	height: 20px;
-	width: 10%;
-}
-*/
 .show-menu {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 42.5px;
 	display: inline-block;
 }
 
@@ -113,9 +100,10 @@ nav ul li {
 }
 
 #logo {
-	width: 30%;
-	margin-left: 5px;
-	margin-bottom: 5px;
+	width: 52%;
+	height: auto;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 /*Slide show animation*/
@@ -132,6 +120,7 @@ nav ul li {
 
 .slide-show img {
 	width: 100%;
+	height: auto;
 	border-radius: 5px;
 }
 

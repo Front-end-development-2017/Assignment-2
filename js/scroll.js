@@ -1,4 +1,4 @@
-
+/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -9,16 +9,33 @@ function scrollFunction() {
 
   scrollUp.addEventListener("click", scrollFunction);
 
-  let toggle = false;
   function scrollFunction(){
 
   if(scrollTopBody > 20 || scrollTopElement > 20)
-     {
-      scrollUp.classList.add("show-arrow");
-      toggle = true;
-      } 
-     else {
-      scrollUp.classList.remove("show-arrow");
-      toggle = false;
-     }
+  {
+    scrollUp.classList.add("show-arrow");
+  } 
+  else 
+  {
+    scrollUp.classList.remove("show-arrow");
   }
+}
+Tried to add a scroll to the top feature using Javascript but failed to get it to work
+*/
+
+/*Jquery*/
+let $arrow = $(".arrow");
+$arrow.hide();
+
+
+$(window).on('scroll', function() {
+  if ($(this).scrollTop() > 100) {
+    $arrow.fadeIn();
+  } else {
+    $arrow.fadeOut();
+  }
+});
+
+$arrow.on('click', function(e) {
+  $("html, body").animate({scrollTop: 0}, 500);
+});
