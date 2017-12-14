@@ -5,7 +5,7 @@
 - Provide a responsive site
 - Include usability 
 
-![](imgs/stuff.jpg)
+![](imgs/facebook.png)
 
 
 - issues faced

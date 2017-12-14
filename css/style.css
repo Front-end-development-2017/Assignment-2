@@ -194,6 +194,9 @@ footer {
 .footer-one nav ul li:nth-child(3) {
 	margin-right: 0;
 }
+.footer-one nav ul li:nth-child(2) {
+	margin-right: 20px;
+}
 
 .footer-one p {
 	margin-top: 10px;
