@@ -4,3 +4,12 @@
 - Adapt skills into the project
 - Provide a responsive site
 - Include usability 
+
+![](imgs/stuff.jpg)
+
+
+- issues faced
+- referencwes
+- wireframes
+- PARC
+- user testing 

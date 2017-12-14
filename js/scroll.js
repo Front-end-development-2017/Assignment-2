@@ -1,4 +1,6 @@
 /*
+Tried to add a scroll to the top feature using Javascript but failed to get it to work
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -20,9 +22,10 @@ function scrollFunction() {
     scrollUp.classList.remove("show-arrow");
   }
 }
-Tried to add a scroll to the top feature using Javascript but failed to get it to work
+
 */
 
+/*From codepen*/
 /*Jquery*/
 let $arrow = $(".arrow");
 $arrow.hide();

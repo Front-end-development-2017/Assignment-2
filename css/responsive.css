@@ -1,5 +1,5 @@
 /*Tablet View*/
-@media screen and (min-width: 500px)
+@media screen and (min-width: 700px)
 {
 	/*Navigation*/
 	nav ul {
@@ -15,6 +15,10 @@
 	nav ul li:hover {
 		border-bottom: 6px solid black;
 		border-radius: 5px;
+	}
+
+	nav ul li:nth-child(3) {
+		margin-right: 15px;
 	}
 
 	nav ul li:nth-child(4) {
