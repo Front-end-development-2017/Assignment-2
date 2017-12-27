@@ -7,8 +7,8 @@ body {
 	margin: 0;
 	padding: 0;
 	 /* overflow-y can also be scroll */
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+  	overflow-y: scroll;
+  	scroll-behavior: smooth;
 }
 
 a {
@@ -19,6 +19,7 @@ a {
 
 p { 
 	line-height: 1.7em;
+	font-size: 18px;
 	text-align: justify;
 }
 
@@ -27,9 +28,10 @@ ul {
 	text-decoration: none;
 }
 
-h1, h4 {
+h1, h3, h4 {
 	background: red; 
 	padding: 5px;
+	font-size: 20px;
 	font-weight: bold;
 	color: black;
 	border-radius: 5px;
@@ -141,15 +143,18 @@ section {
 	padding-right: 10px;
 }
 
+.flex-sections article { 
+	border-bottom: 0;
+}
+
 #container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	flex-direction: column;
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
-	padding-top: 20px;
-	text-align: center;
-	
+	margin-top: 20px;
+	text-align: center;	
 }
 
 article {
@@ -157,15 +162,23 @@ article {
 	margin-bottom: 20px;
 }
 
-figure {
-	margin: 0;
+.flex-column {
+	display: block;
+	margin-top: 30px;
+}
+
+.flex-column article {
+	padding: 15px;
+}
+
+.flex-column article h2 {
+	text-align: center;
 }
 
 .placeholder img {
-	width: 50%;
+	width: 100%;
 	height: auto;
 }
-
 
 /*Footer section*/
 footer {
@@ -180,7 +193,7 @@ footer {
 	display: block;
 }
 
-.footer-item ul li{
+.footer-item ul li {
 	margin-right: 5%;
 	width: 12%;
 }
@@ -220,6 +233,7 @@ footer {
 .footer-one nav ul li:nth-child(3) {
 	margin-right: 0;
 }
+
 .footer-one nav ul li:nth-child(2) {
 	margin-right: 20px;
 }

@@ -60,13 +60,23 @@
 	}
 
 	@keyframes fade {
-	   from {opacity: .4} 
-	   to {opacity: 1}
+	    from {opacity: .4} 
+	    to {opacity: 1}
 	}
 
 	.placeholder img {
 		width: 60%;
 		height: auto;
+	}
+
+	.flex-column {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.flex-column figure img {
+		margin-left: 20%;
 	}
 
 	article h5 {
@@ -97,7 +107,7 @@
 	}
 }
 /*Desktop View*/
-@media screen and (min-width: 1000px)
+@media screen and (min-width: 1050px)
 {
 	/*Navigation*/
 	nav ul {
@@ -112,7 +122,7 @@
 		margin-top: 4%;
 	}
 
-	nav ul li:nth-child(4){
+	nav ul li:nth-child(4) {
 		margin-left: 15px;
 	}
 	
@@ -122,11 +132,10 @@
 		text-align: center;
 	}
 
-	#logo{
+	#logo {
 		width: 65%;
 		margin-top: 25px;	
 	}
-
 	/*Content Body*/
 	.flex-sections {
 		display: flex;
@@ -137,18 +146,11 @@
 		padding-right: 20px;
 	}
 
-	.flex-sections article h4
-	 {
+	.flex-sections article h4 {
 		width: 95%;
 	 }
 
-	.flex-sections article
-	 {
-		border-bottom: 0;
-	 }
-
-	.slide-show
-	{
+	.slide-show {
 		margin-top: 50px;  		
 	}
 		
@@ -162,12 +164,29 @@
 	}
 
 	.placeholder img {
-		width: 55%;
+		width: 40%;
 		height: auto;
 	}
 
-	article h2 {
-		font-size: 32px;
+	.flex-column article h2 {
+		text-align: left;
+	}
+	
+	.flex-column p {
+		display: block;
+		width: 45%;
+	}
+
+	.flex-column article {
+		padding: 30px;
+	}
+
+	.flex-column figure img {
+		display: block;	
+		width: 20%;
+		height: auto;
+		margin-right: 10px;	
+		float: right;
 	}
 
 	article h5 {
