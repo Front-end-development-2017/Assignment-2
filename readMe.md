@@ -8,8 +8,8 @@
 
     The Link to my original website can be found below: 
 
-    GitHub Repo: [GitHub repo](https://github.com/Front-end-development-2017/Assignment-2)
-    Github pages: [GitHub Pages](https://front-end-development-2017.github.io/Assignment-2/)
+    GitHub Repo: https://github.com/Front-end-development-2017/Assignment-2
+    Github pages: https://front-end-development-2017.github.io/Assignment-2/
 
 ### 2. Wireframe Sketches
     
