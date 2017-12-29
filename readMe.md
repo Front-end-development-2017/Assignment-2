@@ -22,15 +22,15 @@
 
 Mobile Wireframe
 
-![](imgs\wireframe1.jpg)
+![https://imgur.com/snJptSg](imgs\wireframe1.jpg)
 
 Tablet Wireframe
 
-![](imgs\wireframe2.jpg)
+![https://imgur.com/hpMJSms](imgs\wireframe2.jpg)
 
 Desktop View
 
-![](imgs\wireframe3.jpg)
+![https://imgur.com/de9Gfzt](imgs\wireframe3.jpg)
 
 ***
 
@@ -49,15 +49,15 @@ Desktop View
 
 #### Mobile View 
 
-![](imgs\mobileView.png)
+![https://imgur.com/RRUZpve](imgs\mobileView.png)
 
 #### Tablet View 
 
-![](imgs\tabletView.png)
+![https://imgur.com/K52GsHT](imgs\tabletView.png)
 
 #### Desktop View 
 
-![](imgs\desktopView.png)
+![https://imgur.com/zmxrREf](imgs\desktopView.png)
 
 #### Testing Scalibility 
 
