@@ -2,6 +2,8 @@
 
 ## Portfolio 
 
+> Charlie Preece - P15221433
+
 ### 1. Choice of Wesbite
 
   >  I chose to produce a portfolio website because it can be used as evidence to show my ability to produce responsive websites.
@@ -16,10 +18,34 @@
 
 ### 2. Wireframe Sketches
 
+> The following is a general layout for my pages.
+
+Mobile Wireframe
+
+![](imgs\wireframe1.jpg)
+
+Tablet Wireframe
+
+![](imgs\wireframe2.jpg)
+
+Desktop View
+
+![](imgs\wireframe3.jpg)
 
 ***
 
 ### 3. Responsive Layout 
+
+> Tried everything to get these images to show so here are the links instead
+
+>Mobile:
+    https://github.com/Front-end-development-2017/Assignment-2/blob/master/imgs/mobileView.png
+
+>Tablet:
+    https://github.com/Front-end-development-2017/Assignment-2/blob/master/imgs/tabletView.png
+
+>Desktop:
+    https://github.com/Front-end-development-2017/Assignment-2/blob/master/imgs/desktopView.png
 
 #### Mobile View 
 
@@ -33,15 +59,33 @@
 
 ![](imgs\desktopView.png)
 
+#### Testing Scalibility 
+
+![](imgs\scale1.jpg)
+
+![](imgs\scale2.jpg)
+
 ***
 
-### 4. Folder Layout
+### 4. Nav and Footer (Including Sitemap)
+
+> Nav bar included in all pages 
+
+![](imgs\nav.png)
+
+> footer included in all pages including the site map
+
+![](imgs\footer.png)
+
+
+
+### 5. Folder Layout
 
 ![](imgs/layout.png)
 
 ***
 
-### 5. HTML Validation
+### 6. HTML Validation
 
 Index.html 
 
@@ -61,7 +105,7 @@ Interests.html
 
 ***
 
-### 6. Use of Flickr API
+### 7. Use of Flickr API
 
 Flickr API 
 
@@ -81,13 +125,19 @@ Responsive API on Desktop
 
 ***
 
-### 7. Html Indentation
+### 8. Html Indentation
 
 ![](imgs/indentation.png)
 
 ***
 
-### 8. CSS Syntax and Flex
+### 9. Html Sementics
+
+![](imgs/sementic.png)
+
+***
+
+### 10. CSS Syntax and Flex
 
 Used flex often to style my content (Has benefits of being reusable in other pages)
 
@@ -95,7 +145,7 @@ Used flex often to style my content (Has benefits of being reusable in other pag
 
 ***
 
-### 9. CSS Breakpoints
+### 11. CSS Breakpoints
 
 I created a seperate css file called responsive.css that holds tablet and desktop breakpoints
 
@@ -103,7 +153,7 @@ I created a seperate css file called responsive.css that holds tablet and deskto
 
 ***
 
-### 10. Instances of Javascript
+### 12. Use of Javascript
 
 The index.html has a slideshow animation of four images using javascript.
 
@@ -119,30 +169,54 @@ This arrow icon is a SVG image. When clicked/tapped it automatically scrolls to 
 
 ***
 
-### 11. Commit History
+### 13. Commit History
+
+![](imgs/commitNo.png)
 
 ![](imgs/commits.png)
 
 ***
 
-
-
-
-
-
+### 14. Branching 
 
  
+![](imgs/branch.png)
+
+***
+
+### 15. References 
+
+> Slide animation:
+    https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+> Scroll to Top: 
+    https://codepen.io/choogoor/pen/dGpOoW?q=scroll%20to%20top%20&order=popularity&depth=everything&show_forks=false
+
+>Flickr API:
+    https://github.com/CTEC3905/08-lab-json-ajax/tree/flickr
+
+>FlexBox Cheatsheet:
+    https://daveeveritt.github.io/flexbox-cheatsheet/
+
+>GitHub Walkthrough: https://vle.dmu.ac.uk/webapps/blackboard/execute/content/file?cmd=view&content_id=_3790096_1&course_id=_460483_1&framesetWrapped=true
+
+***
+
+### 16. Reflection 
+
+* Great to understand how code HTML5 properly using sementics
+* Mobile first design using breakpoints makes life as a web developer far easier than before.
+* Learning Javascript has been tough but essential to my learning 
+* Using an API for the first time has been great to learn and use effectively, because before I had little knowledge of API's.
+* Overall this module has given me some great tips to enhanace my programming knowledge. 
+* Will use markdown again for other modules in place of Powerpoint.
 
 
+### 17. Future Use
 
-
-
-
-
-
-- Include usability 
-- issues faced
-- referencwes
-- wireframes
-- PARC
-- user testing 
+1. Use sementic HTML with appropiate indentation.
+2. Use Mobile first approach with breakpoints and appropiate indentation.
+3. Use of javascript for responsiveness such as animations and event listeners and **NOT** click events.
+4. Use of an API to pull in external JSON as there no point reinventing the wheel if it's already available.
+5. Use Github to host future sites and for anywhere accesibility.
+6. Use git Bash for programming because commits and branches are valuable to revert mistakes I have learnt e.g git resit --hard **commit id**.
