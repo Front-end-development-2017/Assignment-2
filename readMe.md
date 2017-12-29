@@ -105,7 +105,7 @@ I created a seperate css file called responsive.css that holds tablet and deskto
 
 ### 10. Instances of Javascript
 
-The index.html has a slideshow animation of four images using javascript
+The index.html has a slideshow animation of four images using javascript.
 
 ![](imgs/slideshow.png)
 
