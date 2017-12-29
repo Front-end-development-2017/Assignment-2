@@ -143,9 +143,62 @@ section {
 	padding-right: 10px;
 }
 
-.flex-sections article { 
-	border-bottom: 0;
+.section-position {
+	margin-top: 30px;
 }
+
+.section-position h2 {
+	text-align: center;
+} 
+
+.flex-api {
+	width: 90%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+label {
+	font-weight: bold;
+	margin-top: 1%;
+}
+
+#search-form{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+#flickrQuery {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 30%;
+}
+
+#submit{
+  background-color: #404040;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 70px;
+  text-align: center;
+  color: #fff;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 1em;
+}
+
+#results{
+	display: inline-block;
+	padding-bottom: 7.5px;
+}
+
+#results img {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+} 
+
 
 #container {
 	display: flex;
@@ -160,6 +213,10 @@ section {
 article {
 	border-bottom: 1px dashed black;
 	margin-bottom: 20px;
+}
+
+#align-centre {
+	text-align: center;
 }
 
 .flex-column {
