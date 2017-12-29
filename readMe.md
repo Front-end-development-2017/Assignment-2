@@ -22,15 +22,15 @@
 
 Mobile Wireframe
 
-[Imgur](https://i.imgur.com/snJptSg.jpg)
+[Mobile Wireframe](https://i.imgur.com/snJptSg.jpg)
 
 Tablet Wireframe
 
-[Imgur](https://i.imgur.com/hpMJSms.jpg)
+[Tablet Wireframe](https://i.imgur.com/hpMJSms.jpg)
 
 Desktop View
 
-[Imgur](https://i.imgur.com/de9Gfzt.jpg)
+[Desktop Wireframe](https://i.imgur.com/de9Gfzt.jpg)
 
 ***
 
@@ -38,21 +38,21 @@ Desktop View
 
 #### Mobile View 
 
-[Imgur](https://i.imgur.com/RRUZpve.png)
+[Mobile View](https://i.imgur.com/RRUZpve.png)
 
 #### Tablet View 
 
-[Imgur](https://i.imgur.com/K52GsHT.png)
+[Tablet View](https://i.imgur.com/K52GsHT.png)
 
 #### Desktop View 
 
-[Imgur](https://i.imgur.com/zmxrREf.png)
+[Desktop View](https://i.imgur.com/zmxrREf.png)
 
 #### Testing Scalibility 
 
-![](imgs\scale1.jpg)
+[Scale Example 1](https://i.imgur.com/IiF7Lr5.jpg)
 
-![](imgs\scale2.jpg)
+[Scale Example 2](https://i.imgur.com/H4iD5Tj.jpg)
 
 ***
 
@@ -60,14 +60,14 @@ Desktop View
 
 > Nav bar included in all pages 
 
-![](imgs\nav.png)
+[Nav Bar](https://i.imgur.com/6AsJpE3.png)
 
 > footer included in all pages including the site map
 
-![](imgs\footer.png)
-
-
-
+[Footer](https://i.imgur.com/RgtXgrp.png)
+ 
+ ***
+ 
 ### 5. Folder Layout
 
 ![](imgs/layout.png)
