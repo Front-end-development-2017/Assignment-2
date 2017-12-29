@@ -1,38 +1,45 @@
 # CTEC3903 Front End Web Development
 
-## Portfolio Website
+## Portfolio 
 
 ### 1. Choice of Wesbite
 
-    I chose to produce a portfolio website because it can be used as evidence to show my ability to produce responsive websites.
+  >  I chose to produce a portfolio website because it can be used as evidence to show my ability to produce responsive websites.
 
-    The Link to my original website can be found below: 
+  > The Link to my original website can be found below:
 
-    GitHub Repo: https://github.com/Front-end-development-2017/Assignment-2
-    Github pages: https://front-end-development-2017.github.io/Assignment-2/
+   > GitHub Repo: https://github.com/Front-end-development-2017/Assignment-2
+
+   > Github pages: https://front-end-development-2017.github.io/Assignment-2/
+
+***
 
 ### 2. Wireframe Sketches
-    
 
+
+***
 
 ### 3. Responsive Layout 
 
 #### Mobile View 
 
-![](imgs\mobileView.png)
+![](imgs\mobileViewPoint.png)
 
 #### Tablet View 
 
-![](imgs\tabletView.png)
+![](imgs\tabletViewPoint.png)
 
 #### Desktop View 
 
-![](imgs\desktopView.png)
+![](imgs\desktopViewPoint.png)
 
+***
 
 ### 4. Folder Layout
 
 ![](imgs/layout.png)
+
+***
 
 ### 5. HTML Validation
 
@@ -52,6 +59,8 @@ Interests.html
 
 ![](imgs/interestsValidation.png)
 
+***
+
 ### 6. Use of Flickr API
 
 Flickr API 
@@ -70,9 +79,13 @@ Responsive API on Desktop
 
 ![](imgs/responsiveDesign2.png)
 
+***
+
 ### 7. Html Indentation
 
 ![](imgs/indentation.png)
+
+***
 
 ### 8. CSS Syntax and Flex
 
@@ -80,11 +93,15 @@ Used flex often to style my content (Has benefits of being reusable in other pag
 
 ![](imgs/flex.png)
 
+***
+
 ### 9. CSS Breakpoints
 
 I created a seperate css file called responsive.css that holds tablet and desktop breakpoints
 
 ![](imgs/breakpoints.png)
+
+***
 
 ### 10. Instances of Javascript
 
@@ -100,9 +117,13 @@ This arrow icon is a SVG image. When clicked/tapped it automatically scrolls to 
 
 ![](imgs/scroll.png)
 
+***
+
 ### 11. Commit History
 
 ![](imgs/commits.png)
+
+***
 
 
 
