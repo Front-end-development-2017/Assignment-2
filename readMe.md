@@ -23,15 +23,15 @@
 
 #### Mobile View 
 
-![](imgs\mobileViewPoint.png)
+![](imgs\mobileView.png)
 
 #### Tablet View 
 
-![](imgs\tabletViewPoint.png)
+![](imgs\tabletView.png)
 
 #### Desktop View 
 
-![](imgs\desktopViewPoint.png)
+![](imgs\desktopView.png)
 
 ***
 
