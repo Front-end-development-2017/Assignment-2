@@ -22,42 +22,31 @@
 
 Mobile Wireframe
 
-![https://imgur.com/snJptSg](imgs\wireframe1.jpg)
+[Imgur](https://i.imgur.com/snJptSg.jpg)
 
 Tablet Wireframe
 
-![https://imgur.com/hpMJSms](imgs\wireframe2.jpg)
+[Imgur](https://i.imgur.com/hpMJSms.jpg)
 
 Desktop View
 
-![https://imgur.com/de9Gfzt](imgs\wireframe3.jpg)
+[Imgur](https://i.imgur.com/de9Gfzt.jpg)
 
 ***
 
 ### 3. Responsive Layout 
 
-> Tried everything to get these images to show so here are the links instead
-
->Mobile:
-    https://github.com/Front-end-development-2017/Assignment-2/blob/master/imgs/mobileView.png
-
->Tablet:
-    https://github.com/Front-end-development-2017/Assignment-2/blob/master/imgs/tabletView.png
-
->Desktop:
-    https://github.com/Front-end-development-2017/Assignment-2/blob/master/imgs/desktopView.png
-
 #### Mobile View 
 
-![https://imgur.com/RRUZpve](imgs\mobileView.png)
+[Imgur](https://i.imgur.com/RRUZpve.png)
 
 #### Tablet View 
 
-![https://imgur.com/K52GsHT](imgs\tabletView.png)
+[Imgur](https://i.imgur.com/K52GsHT.png)
 
 #### Desktop View 
 
-![https://imgur.com/zmxrREf](imgs\desktopView.png)
+[Imgur](https://i.imgur.com/zmxrREf.png)
 
 #### Testing Scalibility 
 
